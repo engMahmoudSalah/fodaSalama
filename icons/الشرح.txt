@@ -1,0 +1,22 @@
+بنفتح الفولدر بتاع fontawesome-icons
+
+تاخد منه فولدر ال css و webfonts و تعملهم نسخ 
+
+و تفتح فولدر مشروعك و تعمل فيه فولدر جديد و تسميه icons و تلصق فولدر ال css و webfonts فيه
+
+و بعد كده تدخل عندك في ال head في ملف ال html و تحط ده
+
+<link rel="stylesheet" href="/icons/css/all.css">
+
+و تضيف بقا في ال body  ال  icons  ال انتا عايزها 
+
+زي
+
+<i class="fab fa-facebook-f"></i> 
+
+و بما تيجي تعدل عليه في ال css  بتعدل من خلال ال class 
+
+اللي هوا   }fab.
+
+
+
