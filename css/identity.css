@@ -62,3 +62,5 @@ canvas[data-vis]{display:none!important}
 .d-type-text li{color:#EDE6D8}
 .d-type-imgs{background:#F08A5D;isolation:isolate}
 .d-type-imgs img{mix-blend-mode:multiply;filter:grayscale(1) contrast(1.15) brightness(1.05)}
+[data-sitedock]{background:#0d0c0b!important;border-top:2px solid #E4572E!important}
+[data-sitedock] a{color:#EDE6D8!important}
