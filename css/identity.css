@@ -60,3 +60,5 @@ canvas[data-vis]{display:none!important}
 @media(min-width:700px){.sec66 .sec06.sec06-l{justify-content:flex-start!important;padding-top:28px!important}.sec66 .sec06-l h2{position:sticky!important;top:90px}}
 .d-type-text li span{color:#FFD9C2!important;font-weight:700}
 .d-type-text li{color:#EDE6D8}
+.d-type-imgs{background:#F08A5D;isolation:isolate}
+.d-type-imgs img{mix-blend-mode:multiply;filter:grayscale(1) contrast(1.15) brightness(1.05)}
