@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t"><title id="t">رأس روبوت ثلاثي الأبعاد يرمز للذكاء الاصطناعي</title>
+<defs>
+<linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+<linearGradient id="left" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+<linearGradient id="right" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#312e81"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#38bdf8" stop-opacity=".55"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<filter id="b"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+<ellipse cx="200" cy="330" rx="120" ry="26" fill="#000" opacity=".28" filter="url(#b)"/>
+<circle cx="200" cy="200" r="190" fill="url(#glow)"/>
+<g class="orbit"><ellipse cx="200" cy="215" rx="165" ry="48" fill="none" stroke="#38bdf8" stroke-opacity=".6" stroke-width="3" stroke-dasharray="6 10" transform="rotate(-14 200 215)"/><circle cx="352" cy="190" r="9" fill="#a5f3fc"/></g>
+<line x1="200" y1="92" x2="200" y2="62" stroke="#a5b4fc" stroke-width="6" stroke-linecap="round"/><circle cx="200" cy="54" r="11" fill="#fbbf24"/><circle cx="200" cy="54" r="5" fill="#fff7ed"/>
+<polygon points="200,90 305,150 200,210 95,150" fill="url(#top)"/>
+<polygon points="95,150 200,210 200,320 95,260" fill="url(#left)"/>
+<polygon points="305,150 200,210 200,320 305,260" fill="url(#right)"/>
+<g class="eyes"><polygon points="115,198 150,218 150,242 115,222" fill="#67e8f9"/><polygon points="160,224 185,238 185,262 160,248" fill="#67e8f9"/></g>
+<polygon points="215,226 285,186 285,198 215,238" fill="#6366f1" opacity=".7"/><polygon points="215,248 265,220 265,230 215,258" fill="#6366f1" opacity=".5"/>
+<polygon points="95,150 200,210 200,214 95,154" fill="#fff" opacity=".25"/>
+<polygon points="68,190 95,205 95,250 68,235" fill="#818cf8"/><polygon points="332,190 305,205 305,250 332,235" fill="#4338ca"/>
+<style>.orbit{transform-origin:200px 215px;animation:o 14s linear infinite}.eyes{animation:bl 5s infinite}@keyframes o{to{transform:rotate(360deg)}}@keyframes bl{0%,92%,100%{opacity:1}95%{opacity:.2}}@media (prefers-reduced-motion:reduce){.orbit,.eyes{animation:none}}</style>
+</svg>

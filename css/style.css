@@ -339,7 +339,7 @@ body{
         height:400px;
         position: relative;
         left: -15%;
-        animation: img-anmi 1s linear infinite alternate;
+        animation: img-anmi 4s ease-in-out infinite alternate;
     }
 
 }
@@ -378,10 +378,10 @@ body{
 
 @keyframes img-anmi {
     from{
-        transform: translatex(5px);
+        transform: translateY(8px);
     }
     to{
-        transform: translatex(0px);
+        transform: translateY(-8px);
     }
 }
 
@@ -767,3 +767,5 @@ table{
 .quiz-btn.next{margin-top:16px;background:#0EA5E9;color:#fff}
 .quiz-result{display:grid;gap:12px;font-size:1.2rem;justify-items:center}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+@media (prefers-reduced-motion: reduce){ .sec3-d2 img{ animation: none; } }
