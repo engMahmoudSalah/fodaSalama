@@ -32,3 +32,7 @@ img:not(.profile-img img):not(.logo img){filter:grayscale(1) contrast(1.08) brig
 p,li,td{color:#D2CABB!important}
 h2{font-size:2rem}
 .typing-effect{font-size:clamp(34px,10vw,64px)!important}
+/* hero title: always fully visible, no typing reveal */
+.typing-effect{animation:none!important;width:auto!important;font-size:clamp(46px,13vw,96px)!important;line-height:1.25;padding:0 18px 0 0;border-left:0;border-right:4px solid #E4572E;overflow:visible}
+/* rule under titles follows the title alignment */
+h2[style*="center"]::after,.sec9 h2::after,#quiz-title::after{margin-inline:auto}
