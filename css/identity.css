@@ -58,3 +58,5 @@ canvas[data-vis]{display:none!important}
 #to-top{background:#0d0c0b!important;color:#EDE6D8!important;border:2px solid #EDE6D8!important;border-radius:50%!important;width:44px!important;height:44px!important}
 @media(min-width:700px){.sec66 .sec06-l{justify-content:flex-start;align-items:center;padding-top:28px}.sec66 .sec06-l h2{position:sticky;top:90px}}
 @media(min-width:700px){.sec66 .sec06.sec06-l{justify-content:flex-start!important;padding-top:28px!important}.sec66 .sec06-l h2{position:sticky!important;top:90px}}
+.d-type-text li span{color:#FFD9C2!important;font-weight:700}
+.d-type-text li{color:#EDE6D8}
