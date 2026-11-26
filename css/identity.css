@@ -48,4 +48,8 @@ body{counter-reset:chap}
 .sec5::before,.sec7::before,.sec6::before{content:"";position:absolute;inset-inline:0;top:-14px;height:16px;background:#EDE6D8;
  clip-path:polygon(0 100%,4% 20%,9% 80%,15% 10%,22% 70%,30% 30%,37% 90%,45% 15%,53% 75%,61% 25%,70% 85%,78% 20%,86% 70%,93% 10%,100% 80%,100% 100%);pointer-events:none;opacity:.12}
 @media (prefers-reduced-motion:reduce){.sec2>h2::before{transform:none}}
-.sec06-r2 .ani p,.sec06-r2 .ani p *{color:#0d0c0b!important}
+.sec66 .sec06-r .ani p,.sec66 .sec06-r .ani p *{color:#0d0c0b!important}
+/* no decoration over text */
+canvas[data-vis]{display:none!important}
+.sec66 .sec06-r>div[style*="height: 150px"]{height:auto!important;overflow:visible!important}
+.sec66 .sec06-r .ani{position:static!important;animation:none!important;transform:none!important}
