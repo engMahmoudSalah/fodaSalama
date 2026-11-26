@@ -70,16 +70,16 @@
     "german-file-kit": { s: ["doc"], m: "rise", c: ["220,38,38", "234,179,8", "71,85,105"], n: 14, k: "doc" },
     "sim-service": { s: ["signal"], m: "twinkle", c: ["20,184,166", "249,115,22"], n: 12, k: "signal", ripple: 1 },
     meetly: { s: ["tile"], m: "drift", c: ["244,63,94", "139,92,246"], n: 12, k: "tile" },
-    "foda-salama": { s: ["neural"], m: "rise", c: ["228,87,46", "237,230,216"], n: 10, k: "neural", digits: 1, z: -1 },
+    "foda-salama": { s: ["neural"], m: "rise", c: ["34,211,238", "96,165,250"], n: 16, k: "neural", digits: 1 },
     cv: { s: ["brackets"], m: "drift", c: ["52,211,153", "148,163,184"], n: 12, k: "brackets" },
-    velocity: { s: ["card"], m: "slide", c: ["37,99,235", "99,102,241"], n: 12, k: "card" }
+    velocity: { s: ["card"], m: "slide", c: ["37,99,235", "99,102,241"], n: 12, k: "card", off: 1 }
   };
   var host = location.hostname.split(".")[0], th = T[host] || { s: ["star8"], m: "drift", c: ["99,102,241"], n: 12, k: "star8" };
   window.__visTheme = th;
   var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  function start() {
+  function start() { if (th.off) return;
     var cv = document.createElement("canvas"); cv.setAttribute("aria-hidden", "true"); cv.setAttribute("data-vis", "1");
-    cv.style.cssText = "position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:" + (th.z != null ? th.z : 30) + ";opacity:.42";
+    cv.style.cssText = "position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:-1;opacity:.42";
     document.body.appendChild(cv);
     var x = cv.getContext("2d"), W, H, dpr = Math.min(devicePixelRatio || 1, 2), paths = {};
     Object.keys(P).forEach(function (k) { try { paths[k] = new Path2D(P[k]); } catch (e) {} });
