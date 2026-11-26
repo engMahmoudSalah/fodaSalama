@@ -65,3 +65,6 @@ canvas[data-vis]{display:none!important}
 [data-sitedock]{background:#0d0c0b!important;border-top:2px solid #E4572E!important}
 [data-sitedock] a{color:#EDE6D8!important}
 [data-sitedock] a:not([href="/by-mahmoud"]){background:#1c1713!important;border:1px solid #E4572E!important;color:#EDE6D8!important;border-radius:4px!important}
+.sec8>div[style*="space-around"]{justify-content:center!important;align-items:flex-start!important;gap:20px!important}
+.sec8>div[style*="space-around"]>h1{flex:0 0 100%!important;text-align:center;font-family:'Aref Ruqaa','Amiri',serif;color:#E4572E!important;margin:0}
+.sec8>div[style*="space-around"]>div{height:auto!important;min-height:50px;padding:14px 10px!important;text-align:center}
