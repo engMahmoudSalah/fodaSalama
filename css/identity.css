@@ -64,3 +64,4 @@ canvas[data-vis]{display:none!important}
 .d-type-imgs img{mix-blend-mode:multiply;filter:grayscale(1) contrast(1.15) brightness(1.05)}
 [data-sitedock]{background:#0d0c0b!important;border-top:2px solid #E4572E!important}
 [data-sitedock] a{color:#EDE6D8!important}
+[data-sitedock] a:not([href="/by-mahmoud"]){background:#1c1713!important;border:1px solid #E4572E!important;color:#EDE6D8!important;border-radius:4px!important}
