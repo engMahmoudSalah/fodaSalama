@@ -1,0 +1,31 @@
+/* Identity v2: "ink and vermilion" Arabic editorial. Fonts: Reem Kufi (OFL-1.1) and IBM Plex Sans Arabic (OFL-1.1), self-hosted. */
+@font-face{font-family:'Reem Kufi';font-weight:500;font-display:swap;src:url(../fonts/reem-kufi-arabic-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Reem Kufi';font-weight:700;font-display:swap;src:url(../fonts/reem-kufi-arabic-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Plex Arabic';font-weight:400;font-display:swap;src:url(../fonts/ibm-plex-sans-arabic-arabic-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Plex Arabic';font-weight:700;font-display:swap;src:url(../fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2) format('woff2')}
+body{font-family:'Plex Arabic','cairo',sans-serif;background-image:none;background-color:#0d0c0b;color:#EDE6D8;line-height:1.9}
+h1,h2,h3,h4,.header,.typing-effect,button{font-family:'Reem Kufi','Plex Arabic',sans-serif}
+h2{text-shadow:none!important;color:#EDE6D8;letter-spacing:0}
+h2::after{content:"";display:block;width:56px;height:4px;background:#E4572E;margin-top:10px}
+/* remove glow sprites and blurred blobs, flatten surfaces */
+body img[src*="pngwing"],body svg[style*="position: absolute"],.layer{display:none!important}
+.sec1{border-radius:0!important;border:0;border-bottom:4px solid #E4572E;background:#14120f!important}
+.sec1 p{color:#A89F91!important}
+.typing-effect{font-weight:700;color:#EDE6D8!important}
+.sec2,.sec3-d1,.sec3-d2,.item,.quiz{border-radius:0!important;box-shadow:none!important}
+.sec3-d1{border:1px solid #2a2622;background:#14120f}
+.sec3-d2 img{background:#EDE6D8;border:0;max-width:92%;height:auto;aspect-ratio:1;max-height:420px}
+button,a button{border-radius:0!important;background:#E4572E!important;color:#0d0c0b!important;font-weight:700;border:0;min-height:44px;padding-inline:22px}
+button:hover{background:#F08A5D!important}
+a:focus-visible,button:focus-visible{outline:3px solid #EDE6D8;outline-offset:3px}
+.quiz-btn{background:#1c1a17!important;color:#EDE6D8!important;border:1px solid #3a342d!important;text-align:right}
+.nav{background:#0d0c0b!important;border-bottom:1px solid #2a2622}
+
+.sec1{box-shadow:none!important;height:auto!important;min-height:260px;padding:48px 16px;background:linear-gradient(0deg,rgba(13,12,11,.55),rgba(13,12,11,.55)),url(../img/pexels-media-3913025-1701032935075.jpeg) center/cover!important;filter:none}
+.typing-effect{font-size:clamp(30px,9vw,56px)!important}
+button,a button{height:auto!important;line-height:1.4;white-space:nowrap}
+img:not(.profile-img img):not(.logo img){filter:grayscale(1) contrast(1.08) brightness(.92)}
+.profile-img img{filter:none}
+.sec3-d2 img{filter:none!important}
+.sec1{background:linear-gradient(0deg,rgba(13,12,11,.42),rgba(13,12,11,.42)),url(../img/pexels-media-3913025-1701032935075.jpeg) center/cover,#E4572E!important;background-blend-mode:normal,luminosity,normal!important}
+.sec1 p{color:#EDE6D8!important}

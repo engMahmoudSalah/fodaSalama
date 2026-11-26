@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t"><title id="t">ملصق هندسي لعين رقمية يرمز للذكاء الاصطناعي</title>
+<rect width="400" height="400" fill="#EDE6D8"/>
+<g stroke="#0d0c0b" stroke-width="2" fill="none"><path d="M0 100H400M0 200H400M0 300H400M100 0V400M200 0V400M300 0V400" opacity=".12"/></g>
+<circle cx="200" cy="200" r="150" fill="#0d0c0b"/>
+<path d="M50 200a150 150 0 0 1 300 0z" fill="#E4572E"/>
+<circle cx="200" cy="200" r="86" fill="#EDE6D8"/>
+<circle class="pupil" cx="200" cy="200" r="46" fill="#0d0c0b"/>
+<circle cx="218" cy="182" r="12" fill="#EDE6D8"/>
+<g fill="#0d0c0b"><rect x="24" y="352" width="120" height="10"/><rect x="24" y="370" width="72" height="10"/></g>
+<g fill="#E4572E"><rect x="352" y="24" width="24" height="24"/></g>
+<style>.pupil{transform-origin:200px 200px;animation:p 6s ease-in-out infinite}@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(.8)}}@media (prefers-reduced-motion:reduce){.pupil{animation:none}}</style>
+</svg>
