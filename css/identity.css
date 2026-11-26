@@ -55,3 +55,6 @@ canvas[data-vis]{display:none!important}
 .sec66 .sec06-r .ani{position:static!important;animation:none!important;transform:none!important}
 .hand-note{position:relative;z-index:9;margin:14px auto 0;max-width:90%;font-family:'Aref Ruqaa','Amiri',serif;font-size:clamp(17px,4.5vw,24px);color:#F08A5D;transform:rotate(-1.5deg);text-align:center}
 .hand-note::before{content:"";display:block;width:120px;height:6px;margin:0 auto 8px;background:#E4572E;clip-path:polygon(0 60%,10% 10%,22% 80%,35% 20%,50% 90%,64% 15%,78% 80%,90% 20%,100% 70%,100% 100%,0 100%)}
+#to-top{background:#0d0c0b!important;color:#EDE6D8!important;border:2px solid #EDE6D8!important;border-radius:50%!important;width:44px!important;height:44px!important}
+@media(min-width:700px){.sec66 .sec06-l{justify-content:flex-start;align-items:center;padding-top:28px}.sec66 .sec06-l h2{position:sticky;top:90px}}
+@media(min-width:700px){.sec66 .sec06.sec06-l{justify-content:flex-start!important;padding-top:28px!important}.sec66 .sec06-l h2{position:sticky!important;top:90px}}
